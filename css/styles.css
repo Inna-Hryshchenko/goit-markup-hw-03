@@ -16,6 +16,35 @@ body {
   letter-spacing: 0.03em;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .list {
   list-style: none;
 }
@@ -39,6 +68,8 @@ body {
   overflow: hidden;
 }
 
+/*Header*/
+
 /*Logo*/
 .logo {
   text-decoration: none;
@@ -57,6 +88,15 @@ body {
 
 /*Site nav*/
 
+.site-nav {
+  display: flex;
+  align-items: center;
+}
+
+.site-nav .logo {
+  margin-right: 114px;
+}
+
 .site-nav .list {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -70,6 +110,11 @@ body {
   text-decoration: none;
   color: var(--secondary-text-color);
 }
+
+.auth-nav {
+  margin-left: auto;
+}
+
 .site-nav .link {
   text-decoration: none;
   color: var(--primary-text-color);
@@ -81,6 +126,11 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
+}
+
+.auth-nav {
+  display: flex;
+  align-items: center;
 }
 
 .auth-nav .anlink:hover,
@@ -108,12 +158,6 @@ body {
   letter-spacing: 0.06em;
   text-decoration: none;
 }
-
-/*.order:hover,*/
-/*.order:focus {*/
-/* color: #ffffff;*/
-/*  background-color: var(--accent-color);*/
-/*}*/
 
 /*Sections*/
 
