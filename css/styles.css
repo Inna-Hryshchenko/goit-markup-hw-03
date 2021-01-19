@@ -13,7 +13,6 @@
 }
 
 body {
-  background-color: #e5e5e5;
   color: var(--secondary-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -75,6 +74,9 @@ img {
 
 /*Header*/
 
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
 /*Logo*/
 .logo {
   text-decoration: none;
@@ -163,10 +165,12 @@ img {
 /*Hero*/
 
 .hero .container {
+  text-align: center;
   padding-bottom: 94px;
 }
+
 .hero-title {
-  width: 696px;
+  /*max-width: 696px;*/
   height: 120px;
   margin-bottom: 30px;
   color: #ffffff;
@@ -251,6 +255,9 @@ img {
 
 /*Team*/
 
+.teambgc {
+  background-color: #e5e5e5;
+}
 .team {
   display: flex;
   justify-content: space-between;
@@ -371,6 +378,7 @@ img {
 }
 
 .portfolio {
+  outline: solid black;
   display: flex;
   flex-wrap: wrap;
   margin-left: -20px;
@@ -388,6 +396,9 @@ img {
 
 .card-content {
   padding: 20px 24px;
+  border-left: 1px solid #EEEEEE;
+  border-right: 1px solid #EEEEEE;;
+  border-bottom: 1px solid #EEEEEE;
 }
 
 
