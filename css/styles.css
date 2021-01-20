@@ -76,6 +76,8 @@ img {
 
 .header {
   border-bottom: 1px solid #ECECEC;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 /*Logo*/
 .logo {
@@ -103,9 +105,7 @@ img {
 .navigation {
   display: flex;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
+  }
 
 .navigation .logo {
   margin-right: 93px;
@@ -166,8 +166,7 @@ img {
 
 .hero .container {
   text-align: center;
-  padding-bottom: 94px;
-}
+  }
 
 .hero-title {
   /*max-width: 696px;*/
@@ -186,8 +185,6 @@ img {
   height: 50px;
   min-width: 200px;
   padding: 10px 32px;
-  margin-right: auto;
-  margin-left: auto;
   border-radius: 4px;
   color: #ffffff;
   background-color: var(--accent-color);
@@ -213,6 +210,12 @@ img {
 
 .section {
   text-align: center;
+  padding-top: 94px;
+  padding-bottom: 94px;
+ }
+
+ .section-nopadingtop {
+   padding-top: 0;
  }
 
  .section-left {
@@ -223,8 +226,7 @@ img {
 .reautures {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
-}
+  }
 
 .reautures .title {
   color: var(--primary-text-color);
@@ -250,8 +252,7 @@ img {
 .list {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
-}
+  }
 
 /*Team*/
 
@@ -261,7 +262,6 @@ img {
 .team {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
   text-align: center;
 }
 
@@ -287,6 +287,11 @@ img {
 
 /*Footer*/
 
+.footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
 .auth-nav .adress {
   text-decoration: none;
   color: #ffffff;
@@ -307,14 +312,11 @@ img {
 
 .footer .logo {
   display:inline-block;
-  padding-top: 60px;
-  margin-bottom: 20px;
-}
+  }
 
 .footer .auth-nav {
   display: block;
-  padding-bottom: 60px;
-}
+  }
 
 .footer-item {
   display: inline-block;
@@ -343,8 +345,7 @@ img {
 .filter {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 34px;
 }
 
 .filter .item {
@@ -378,7 +379,6 @@ img {
 }
 
 .portfolio {
-  outline: solid black;
   display: flex;
   flex-wrap: wrap;
   margin-left: -20px;
